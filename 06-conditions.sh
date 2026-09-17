@@ -2,9 +2,9 @@
 
 NUMBER=$1
 
-if ($NUMBER is gt 20)
+if ($NUMBER gt 20)
 then
-    echo"number is greater than 20"
+    echo"$NUMBER is greater than 20"
 else
-   echo"number is less than 20"
+   echo"$NUMBER is less than 20"
 fi 
