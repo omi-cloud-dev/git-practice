@@ -11,4 +11,4 @@ CHECK_ROOT(){
     fi    
 }
 
-dnf list installed nginxs
+dnf list installed nginx
