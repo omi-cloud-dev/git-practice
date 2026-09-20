@@ -17,3 +17,13 @@ then
 else
     echo "git is already installed "    
 fi
+
+dnf list installed mysql
+
+if [ $? -ne 0 ]
+then
+    echo "my sql is not installed, goingo to install my sql.."
+    dnf install mysql -y
+else
+    echo " my sql is already installed "
+fi        
