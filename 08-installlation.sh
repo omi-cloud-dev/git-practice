@@ -12,3 +12,6 @@ CHECK_ROOT(){
 }
 
 dnf list installed nginx
+
+if [$? -ne o]
+then dnf install nginx
