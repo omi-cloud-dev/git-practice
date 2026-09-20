@@ -10,3 +10,5 @@ CHECK_ROOT(){
         exit 1
     fi    
 }
+
+dnf list installed nginxs
